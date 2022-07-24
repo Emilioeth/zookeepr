@@ -117,6 +117,65 @@
         "hungry"
       ],
       "id": "11"
+    },
+    {
+      "name": "Morfus",
+      "species": "Panther",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "goofy"
+      ],
+      "id": "12"
+    },
+    {
+      "name": "Mandy",
+      "species": "Lion",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "loving"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Norman",
+      "species": "Panther",
+      "diet": "folivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "14"
+    },
+    {
+      "name": "Gordon",
+      "species": "Chimpanzee",
+      "diet": "piscivore",
+      "personalityTraits": [
+        "zany"
+      ],
+      "id": "15"
+    },
+    {
+      "name": "Letras",
+      "species": "Lion",
+      "diet": "folivore",
+      "personalityTraits": [
+        "anxious",
+        "loving"
+      ],
+      "id": "16"
+    },
+    {
+      "name": "Goler",
+      "species": "Elephant",
+      "diet": "carnivore",
+      "personalityTraits": [
+        "hungry",
+        "zany",
+        "anxious"
+      ],
+      "id": "17"
     }
   ]
 }
