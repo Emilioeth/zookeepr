@@ -8,12 +8,17 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
+//Make files inside the public folder available
 app.use(express.static('public'));
 
+
+// NEED BOTH OF THESE IN ORDER FOR POST AND PUT REQUESTS TO WORK //
 // parse incoming string or array data
 app.use(express.urlencoded({ extended: true }));
 // parse incoming JSON data
 app.use(express.json());
+// NEED BOTH OF THESE IN ORDER FOR POST AND PUT REQUESTS TO WORK //
+
 
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
