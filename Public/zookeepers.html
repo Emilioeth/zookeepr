@@ -28,6 +28,23 @@
     </section>
 
     <section class="my-2 flex-row justify-space-between">
+      <div class="col-12 col-lg-3 bg-dark p-3">
+        <h3 class="text-light">Search For Zookeepers</h3>
+        <form id="zookeeper-form">
+          <label for="name-input" class="form-label">Search by name</label>
+          <input name="name" id="name-input" class="form-input" />
+          <label for="age-input" class="form-label">Search by age</label>
+          <input name="age" id="age-input" class="form-input" type="number" />
+          <button class="btn">Get Zookeepers</button>
+        </form>
+      </div>
+      <div class="col-12 col-lg-9 bg-dark p-3">
+    
+        <div class="flex-row justify-space-between" id="display-area"></div>
+      </div>
+    </section>
+
+    <section class="my-2 flex-row justify-space-between">
       <div class="col-12 bg-dark p-3">
         <div class="flex-row justify-space-between" id="display-area"></div>
       </div>
