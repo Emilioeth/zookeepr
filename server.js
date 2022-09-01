@@ -22,7 +22,7 @@ app.use(express.json());
 // NEED BOTH OF THESE IN ORDER FOR POST AND PUT REQUESTS TO WORK //
 
 app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+app.use('/home', htmlRoutes);
 
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
